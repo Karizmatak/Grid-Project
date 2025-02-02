@@ -1,0 +1,22 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.grid-container:hover{
+  border: 2px solid red;
+}
+
+.grid-item{
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+
+.grid-item:hover{
+  border: 2px solid yellow;
+  background-color: rgb(255, 255, 255);
+}
